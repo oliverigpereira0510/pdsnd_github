@@ -10,7 +10,7 @@ Oliver Git Journey
 Exploring and putting to use version control via the use of git commands
 
 ### Files used
-python code and data files
+python code and data files and gitignore
 
 ### Credits
 Huge shoutout to udacity from the impressive course work.
