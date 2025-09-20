@@ -100,7 +100,7 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """Displays user statistics on bikeshare users."""
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
@@ -128,7 +128,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart the process? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
